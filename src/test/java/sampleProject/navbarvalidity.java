@@ -24,6 +24,7 @@ public class navbarvalidity  extends base{
 	  landingPage l=new landingPage(driver);
 	 
 	  Assert.assertTrue(l.getnavbar().isDisplayed());
+	  //this is git demo
 	 }
 	@AfterTest
 	public void teardown() {
