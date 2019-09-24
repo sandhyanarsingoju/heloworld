@@ -28,7 +28,7 @@ public class verificationTest extends base {
 		landingPage l=new landingPage(driver);
 		
 		Assert.assertEquals(l.getStr().getText(), "FEATURED COURSES123");
-		
+		System.out.println("this is gitTest sample");
 	}
 @AfterTest
 public void teardown() {
