@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: sampleProject.HomepageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.555 s <<< FAILURE! - in sampleProject.HomepageTest
+homepageNavigation(sampleProject.HomepageTest)  Time elapsed: 1.346 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [homepageNavigation] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+

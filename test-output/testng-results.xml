@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5778" started-at="2019-09-14T05:46:40Z" finished-at="2019-09-14T05:46:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5778" started-at="2019-09-14T05:46:40Z" finished-at="2019-09-14T05:46:45Z">
+      <class name="sampleProject.HomepageTest">
+        <test-method status="FAIL" signature="initialize1()[pri:0, instance:sampleProject.HomepageTest@6b419da]" name="initialize1" is-config="true" duration-ms="0" started-at="2019-09-14T11:16:40Z" finished-at="2019-09-14T11:16:40Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at sampleProject.HomepageTest.initialize1(HomepageTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize1 -->
+        <test-method status="SKIP" signature="homepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:sampleProject.HomepageTest@6b419da]" name="homepageNavigation" duration-ms="3" started-at="2019-09-14T11:16:45Z" data-provider="getdata" finished-at="2019-09-14T11:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="SKIP" signature="homepageNavigation(java.lang.String, java.lang.String)[pri:0, instance:sampleProject.HomepageTest@6b419da]" name="homepageNavigation" duration-ms="1" started-at="2019-09-14T11:16:45Z" data-provider="getdata" finished-at="2019-09-14T11:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:sampleProject.HomepageTest@6b419da]" name="teardown" is-config="true" duration-ms="0" started-at="2019-09-14T11:16:45Z" finished-at="2019-09-14T11:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sampleProject.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
